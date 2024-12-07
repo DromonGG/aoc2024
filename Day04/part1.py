@@ -4,7 +4,7 @@ from rich.table import Table
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-with open("Day04/inputNene.txt") as inputFile:
+with open("Day04/inputShort.txt") as inputFile:
     matrix = [list(row) for row in inputFile.read().strip().split("\n")]
 rows = len(matrix)
 cols = len(matrix[0])

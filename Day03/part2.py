@@ -7,7 +7,7 @@ doPattern = r"do\(\)"
 dontPattern = r"don't\(\)"
 combinedPattern = f"{mulPattern}|{doPattern}|{dontPattern}"
 
-with open("Day03/input.txt") as inputFile:
+with open("Day03/inputShort.txt") as inputFile:
     content = inputFile.read()
     for match in re.finditer(combinedPattern, content):
         token = match.group(0)

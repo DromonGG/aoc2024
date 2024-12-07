@@ -1,6 +1,6 @@
 safeReports = 0
 
-with open("Day02/input.txt") as input_file:
+with open("Day02/inputShort.txt") as input_file:
     for line in input_file:
         numbers = [int(num) for num in line.strip().split(" ")]
         
